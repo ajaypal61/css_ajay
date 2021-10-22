@@ -11,7 +11,7 @@
 <body>
     <div>
         <h2>This is form tutorial </h2>
-        <form action="form.php"></form>
+        <form action="form.php">
         <!-- <input type="text" placeholder="enter your name"> -->
         <div>
             <label for="name">Name :
@@ -81,11 +81,31 @@
         <div>
             <label for="pass"></label>
         </div>
-    </div>
+    </div><br>
+<br>
+<div>
+    <input type="text" pattern="[a-z]+$" title="Example=abcd...z">
+    <input type="submit" value="submit">
+</div><br>
 
 
 
+<!-- fieldset tag -->
 
+<fieldset>
+
+<!-- legend tag -->
+
+    <legend> personal info</legend>
+<div>
+    <label for="name">name :</label>
+    <input type="text" id="name" name="my name" placeholder="enter your name " >
+    <br>
+    <br>
+    <label for="text">text :</label>
+    <input type="text" id="text" name="my text" placeholder="enter text">
+</div>
+</fieldset>
 
 
 
@@ -99,7 +119,7 @@
     <div>
         <iframe src="https://www.bing.com" frameborder="0" width=""></iframe>
     </div> -->
-
+</form>
 </body>
 
 </html>
